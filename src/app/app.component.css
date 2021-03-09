@@ -1,0 +1,7 @@
+.boxes-container{
+    position: relative;
+}
+.box{
+    position: absolute;
+    background-color: blue;
+}
