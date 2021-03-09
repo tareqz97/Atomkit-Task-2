@@ -10,7 +10,6 @@ export class AppComponent implements OnInit {
   constructor(private apiConfigService : ApiConfigService) { }
   title = 'Atomkit-Task2';
   boxes;
-  color:string = "red";
   ngOnInit(): void {
     this.showBoxes();
   }
